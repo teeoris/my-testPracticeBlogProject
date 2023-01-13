@@ -1,0 +1,100 @@
+.blog__home-abtSection {
+    flex: 1;
+    max-width: 300px;
+}
+
+.blog__home-abtSection_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: .5rem 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.blog__home-abtSection_image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+.blog__home-abtSection_image img {
+    width: 100%;
+}
+
+.blog__home-abtSection_categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog__home-abtSection_categories-title {
+    text-transform: uppercase;
+    padding: .5rem 0;
+    margin: 1.5rem 0;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.blog__home-abtSection_categories-subcategories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+.blog__home-abtSection_categories-subcategories p {
+    padding: 0.5rem 0;
+    cursor: pointer;
+}
+
+.blog__about-abtSection_categories-cta {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.blog__about-abtSection_categories-cta_title {
+    padding: .5rem 0;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.blog__home-abtSection_categories-cta_icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta {
+    font-size: 20px !important;
+    margin: 1rem .3rem;
+}
+
+@media screen and (max-width:700px) {
+    .blog__home-abtSection {
+        flex: 1;
+        max-width: none;
+    }
+}

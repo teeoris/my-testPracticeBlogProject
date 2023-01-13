@@ -1,0 +1,5 @@
+export {default as Contact} from "./contact/Contact"
+export {default as Home} from "./home/Home"
+export {default as Logout} from "./logout/Logout"
+export {default as Write} from "./write/Write"
+export {default as About} from "./about/About"

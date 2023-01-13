@@ -1,0 +1,48 @@
+.blog__register {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+.blog__register-inputInfo_container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+.blog__register-inputInfo_container-label {
+    padding-bottom: .5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.blog__register-inputInfo_container-input {
+    height: 35px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #c9c8c8;
+}
+
+.blog__regiter_inputInfo-inputInfo-btn {
+    width: 150px;
+    height: 35px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: grey;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.blog__regiter_inputInfo-inputInfo-btn button {
+    border: none;
+    outline: none;
+    background: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+}

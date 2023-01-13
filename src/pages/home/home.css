@@ -1,0 +1,29 @@
+.blog__home {
+    padding: 2rem;
+    display: flex;
+}
+
+.blog__home-feature {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.blog__home-feature_left {
+    flex: 1;
+}
+
+.blog__home-feature_right {
+    flex: 1;
+}
+
+
+@media screen and (max-width:700px) {
+    .blog__home {
+        display: block;
+    }
+
+    .blog__home-feature {
+        display: block;
+    }
+}
